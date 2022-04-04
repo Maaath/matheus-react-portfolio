@@ -22,7 +22,7 @@ const About = (props) => {
                 I have a great interpersonal relationship and I am comfortable with group projects, even taking on coordinating roles.
             </p>
             <p className="a-desc">
-                My interest areas are: Artificial Intelligence, Front-end Web and Mobile Development, and I.T. Management.
+                My interest areas are: Front-end Web and Mobile Development, Artificial Intelligence and I.T. Management.
             </p>
             <div className="a-education">
                 <img src={Furg} alt="" className="a-education-img" />

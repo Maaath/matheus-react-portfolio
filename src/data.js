@@ -8,9 +8,9 @@ export const products = [
     },
     {
       id: 2,
-      img: "https://user-images.githubusercontent.com/38335297/158392804-77743885-6b2f-44fb-96d2-12b11ac3ccb4.PNG",
-      link: "https://github.com/Maaath/Eurocopa-2020",
-      name: "Eurocopa 2020",
+      img: "https://user-images.githubusercontent.com/38335297/158394526-00149e16-baaf-4c69-accf-9876820b7ecc.PNG",
+      link: "https://github.com/Maaath/C3-Health",
+      name: "C3 Health",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export const products = [
       id: 4,
       img: "https://user-images.githubusercontent.com/38335297/158398334-6ca09d1e-e3a9-4f0d-9ddb-166cc86589c9.PNG",
       link: "https://github.com/Maaath/Pokemon-Unity",
-      name: "Pokemon Unity",
+      name: "Pokemon Unity Online",
     },
     {
       id: 5,
@@ -32,8 +32,8 @@ export const products = [
     },
     {
       id: 6,
-      img: "https://user-images.githubusercontent.com/38335297/158394526-00149e16-baaf-4c69-accf-9876820b7ecc.PNG",
-      link: "https://github.com/Maaath/C3-Health",
-      name: "C3 Health",
+      img: "https://user-images.githubusercontent.com/38335297/158392804-77743885-6b2f-44fb-96d2-12b11ac3ccb4.PNG",
+      link: "https://github.com/Maaath/Eurocopa-2020",
+      name: "Eurocopa 2020", 
     },
   ];
