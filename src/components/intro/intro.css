@@ -1,0 +1,151 @@
+.i{
+    display: flex;
+    height: 100vh;
+}
+
+.i-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-right{
+    flex:1;
+    position: relative;
+}
+
+.i-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.i-name{
+    font-size: 60px;
+    
+}
+.i-tittle{
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-tittle-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.i-tittle-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.i-scroll{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.i-img-me{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    display: none;
+}
+
+.i-img-bat{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.i-img-ballon{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.i-img-hi{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: none;
+}
+
+.i-right:hover .i-img-bat{
+    display: none;
+}
+
+.i-right:hover .i-img-me{
+    display: block;
+}
+.i-right:hover .i-img-ballon{
+    display: none;
+}
+
+.i-right:hover .i-img-hi{
+    display: block;
+}
+
+
+.i-bg{
+    clip-path: polygon(2% 0, 98% 0, 98% 31%, 50% 100%, 2% 31%);
+    background-color: darkred;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100;
+}
+
+
+@media screen and (max-width: 480px){
+    .i{
+        flex-direction: column;
+    }
+    
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .i-desc{
+        display: none;
+    }
+}
