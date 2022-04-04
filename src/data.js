@@ -26,14 +26,14 @@ export const products = [
     },
     {
       id: 5,
-      img: "https://user-images.githubusercontent.com/38335297/158402446-e2460b06-ca56-4ba6-96dd-1b8c6d1904a2.PNG",
-      link: "https://github.com/Maaath/Buscador-de-CEP",
-      name: "Search Zip Code",
-    },
-    {
-      id: 6,
       img: "https://user-images.githubusercontent.com/38335297/158392804-77743885-6b2f-44fb-96d2-12b11ac3ccb4.PNG",
       link: "https://github.com/Maaath/Eurocopa-2020",
       name: "Eurocopa 2020", 
     },
+    {
+      id: 6,
+      img: "https://user-images.githubusercontent.com/38335297/158402446-e2460b06-ca56-4ba6-96dd-1b8c6d1904a2.PNG",
+      link: "https://github.com/Maaath/Buscador-de-CEP",
+      name: "Search Zip Code",
+    },   
   ];

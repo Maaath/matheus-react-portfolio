@@ -43,19 +43,19 @@ const Contact = () => {
                 <div className="c-info">
                     <div className="c-info-item">
                         <img src={Linkedin} alt="" className="c-icon" />
-                        <a href="https://www.linkedin.com/in/math-macedo/" className="c-link linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/math-macedo/" className="c-link" target="_blank" rel="noreferrer">LinkedIn</a>
                     </div>
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
                         <img src={Github} alt="" className="c-icon" />
-                        <a href="https://github.com/Maaath" className="c-link github" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://github.com/Maaath" className="c-link" target="_blank" rel="noreferrer">Github</a>
                     </div>
                 </div>
                 <div className="c-info">
                     <div className="c-info-item">
                         <img src={Address} alt="" className="c-icon" />
-                        Rio Grande - RS
+                        <p style={{color:"#0073b1"}}>Rio Grande - RS</p>
                     </div>
                 </div>
             </div>

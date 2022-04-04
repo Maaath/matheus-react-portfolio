@@ -48,14 +48,12 @@
 
 .c-link{
     font-weight: bold;
+    text-decoration: none;
+    color:#0073b1;
 }
 
-.linkedin{
-    color:#0A66C2;
-}
-
-.github{
-    color:black;
+.c-link:hover{
+    color:darkred
 }
 
 .c-desc-right{
@@ -102,6 +100,10 @@ form button{
     color:white;
     font-weight: 500;
     cursor: pointer;
+}
+
+form button:hover{
+    background-color: #0073b1;
 }
 
 @media screen and (max-width: 480px){

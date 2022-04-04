@@ -42,6 +42,14 @@
     transform: translateX(-30%);
 }
 
+.p:hover .p-name{
+    color:darkred;
+}
+
+.p:hover .p-browser{
+    background-color: black;
+}
+
 @media screen and (max-width:480px) {
     .p{
         width: 40%;
