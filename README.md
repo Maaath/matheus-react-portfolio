@@ -8,7 +8,7 @@
 <br>
 
 <div align = "center">
-  <img hspace="50" width="1280" height="450" src="https://user-images.githubusercontent.com/38335297/164803490-7476c4de-e879-49f1-b8c0-c056adb2d48a.PNG">
+  <img width="1280" height="450" src="https://user-images.githubusercontent.com/38335297/164803490-7476c4de-e879-49f1-b8c0-c056adb2d48a.PNG">
 </div>
 
 <br>
